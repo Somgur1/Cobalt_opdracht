@@ -34,18 +34,47 @@ namespace Cobalt_opdracht
             {
 
 
-
-                int Count = 0;
-                foreach (char c in kobaltmensen.Name)
+                string name = kobaltmensen.Name;
+                char[] charArray = name.ToCharArray();
+               
                 {
-                    if (c != ' ')
+                    foreach (char count in name)
                     {
-                        Count++;
+                        Console.WriteLine(count);
+
+                        int a = 1;
+                        int b = 2;
+                        int c = 3;
+                        int d = 4;
+                        int e = 5;
+                        int f = 5;
+                        int g = 6;
+                        int h = 7;
+                        int i = 8;
+                        int j = 9;
+                        int k = 10;
+                        int l = 11;
+                        int m = 12;
+                        int n = 13;
+                        int o = 14;
+                        int p = 15;
+                        int q = 16;
+                        int r = 17;
+                        int s = 18;
+                        int t = 19;
+                        int u = 20;
+                        int v = 21;
+                        int w = 22;
+                        int x = 23;
+                        int y = 24;
+                        int z = 25;
                     }
                 }
-                int k = Count;
 
-                Console.WriteLine(kobaltmensen.Name + k);
+
+
+
+
 
             }
         }
