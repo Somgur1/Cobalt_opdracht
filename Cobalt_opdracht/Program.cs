@@ -18,31 +18,43 @@ namespace Cobalt_opdracht
 
             var Kobalt = new List<KobaltNamen>//in word op afphabetische folgorde gezet
         {
-           new KobaltNamen() { Name="Arne ", Cijfer = 1},
-            new KobaltNamen() { Name="Brenda ", Cijfer = 2},
-            new KobaltNamen() { Name="Carly ", Cijfer = 3},
-            new KobaltNamen() { Name="Desley ", Cijfer = 4},
-            new KobaltNamen() { Name="Esther ", Cijfer = 5},
-            new KobaltNamen() { Name="Huub ", Cijfer = 6},
-            new KobaltNamen() { Name="Kylian ", Cijfer = 7},
-            new KobaltNamen() { Name="Mick ", Cijfer = 8},
-            new KobaltNamen() { Name="Kylian ", Cijfer = 9},
-            new KobaltNamen() { Name="Mick ", Cijfer = 10},
+           new KobaltNamen() { Name="arne ", Cijfer = 1},
+            new KobaltNamen() { Name="brenda ", Cijfer = 2},
+            new KobaltNamen() { Name="carly ", Cijfer = 3},
+            new KobaltNamen() { Name="desley ", Cijfer = 4},
+            new KobaltNamen() { Name="esther ", Cijfer = 5},
+            new KobaltNamen() { Name="huub ", Cijfer = 6},
+            new KobaltNamen() { Name="kylian ", Cijfer = 7},
+            new KobaltNamen() { Name="mick ", Cijfer = 8},
+            new KobaltNamen() { Name="kylian ", Cijfer = 9},
+            new KobaltNamen() { Name="mick ", Cijfer = 10},
         };
+
+            int i = 1;
 
             foreach (KobaltNamen kobaltmensen in Kobalt)
             {
 
 
-                string name = kobaltmensen.Name;
-                char[] charArray = name.ToCharArray();
-               
-                {
-                    foreach (char count in name)
-                    {
-                        Console.WriteLine(count);
+                //string name = kobaltmensen.Name;
+                //char[] charArray = name.ToCharArray();
 
-                        int a = 1;
+                String abc = "arne";
+
+                for (int i = 1; i <= abc.Length; i += 1)
+                {
+                    abc = abc.Insert(i, " ");
+                    i++;
+                }
+
+
+
+                Console.WriteLine(abc);
+
+
+
+
+                int a = 1;
                         int b = 2;
                         int c = 3;
                         int d = 4;
@@ -68,8 +80,10 @@ namespace Cobalt_opdracht
                         int x = 23;
                         int y = 24;
                         int z = 25;
-                    }
-                }
+
+                            
+                    
+                
 
 
 
